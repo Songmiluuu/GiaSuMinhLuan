@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My CV</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" onclick="showTab(event, 'about')">About Me</a></li>
+                <li><a href="#experience" onclick="showTab(event, 'experience')">Experience</a></li>
+                <li><a href="#skills" onclick="showTab(event, 'skills')">Skills</a></li>
+                <li><a href="#education" onclick="showTab(event, 'education')">Education</a></li>
+                <li><a href="#contact" onclick="showTab(event, 'contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="tab-content">
+            <h2>About Me</h2>
+            <ul>Họ và Tên : Nguyễn Song Minh Luân.</ul>
+            <ul>Năm sinh : 2005.</ul>
+            <ul>Trường : Trường Đại học Bách Khoa - ĐHQG TP Hồ Chí Minh.</ul>
+        </section>
+        <section id="experience" class="tab-content" style="display: none;">
+            <h2>Experience</h2>
+            <p>Với hơn 1 năm kinh nghiệm giảng dạy từ 6 cho đến 31 tuổi, em/ con tự tin sẽ cải thiện kết quả học tập rõ rệt cho học viên.</p>
+        </section>
+        <section id="skills" class="tab-content" style="display: none;">
+            <h2>Skills</h2>
+            <p>Các môn tự nhiên : Toán, Lý, Hoá, Anh.</p>
+            <p>Các môn năng khiếu : Piano, Organ. </p>
+        </section>
+        <section id="education" class="tab-content" style="display: none;">
+            <h2>Education</h2>
+            <p>Điểm thi THPTQG 2023:</p>
+            <ul>Toán : 9,2</ul>
+            <ul>Lí : 9,25</ul>
+            <ul>Anh : 8,8</ul>
+            <p>Là cựu học sinh trường TH-THCS-THPT Lê Thánh Tông, hiện đang là sinh viên năm nhất của Trường Đại học Bách Khoa - ĐHQG TP Hồ Chí Minh.</p>
+        </section>
+        <section id="contact" class="tab-content" style="display: none;">
+            <h2>Contact</h2>
+            <p>Phone/ Zalo : 0976055827</p>
+            <p>Gmail : luan.nguyensongminh@hcmut.edu.vn</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nguyễn Song Minh Luân</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
